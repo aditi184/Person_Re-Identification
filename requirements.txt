@@ -1,0 +1,11 @@
+timm
+faiss
+tqdm
+numpy
+torch
+torchvision
+matplotlib
+gdown
+jupyter notebook
+sklearn
+pandas

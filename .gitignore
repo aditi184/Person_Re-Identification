@@ -2,5 +2,8 @@
 *.py[cod]
 **/__pycache__
 *.ipynb_checkpoints
-*.ipynb
 *.zip
+*.pdf
+model
+report
+references

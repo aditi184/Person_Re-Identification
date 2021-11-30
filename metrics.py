@@ -8,7 +8,7 @@ def rank5(label, output):
         return True
     return False
 
-def calc_ap(label, output):
+def calc_map(label, output):
     count = 0
     score = 0
     good = 0

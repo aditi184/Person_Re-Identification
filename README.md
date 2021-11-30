@@ -8,7 +8,7 @@ On validation set
 |     Model      | CMC@rank-1 | CMC@rank-5 | mAP  |                           Download                           |
 | :------------: | :--------: | :--------: | :--: | :----------------------------------------------------------: |
 |    Baseline    |    92.9    |    96.4    | 91.5 | [model](https://drive.google.com/file/d/1IxTAUOjS3_S4sF1mRJ72Mp5Xo-omQu6a/view?usp=sharing) |
-| LA-TF++ (ours) |    92.9    |    1.0     | 93.2 | [model](https://drive.google.com/file/d/1C5fkNlcLTduBjZ0YYSKQeeZWhXemCT9p/view?usp=sharing) |
+| LA-TF++ (ours) |    92.9    |    1.0     | 93.2 | [model](https://drive.google.com/file/d/1alTMrdiupa2McGkSOJCgO_QC4DCNhc0f/view?usp=sharing) |
 
 ## Installation
 
@@ -52,13 +52,7 @@ python run-test.py --model_path <path-to-saved-model> --test_data ./data/val --v
 
 ## Dataset
 
-* The dataset has 114 unique persons. The train and val set contain 62 and 12 persons, respectively.
-* We have held out the test set of 40 persons.
-* Each person has been captured using 2 cameras from 8 different angles. That is, each person would have 16 images. All images of a unique person is stored in a single directory (numbered from 001 to 114).
-* The dataset has the following directory structure:
-
-* The images of a person in the val set in split into query and gallery images. The query is the set of images which will be used to retrieve the images of the same person from the gallery. 
-* Note that query and gallery are mutually exclusive sets.
+The dataset has 114 unique persons. The train and val set contain 62 and 12 persons, respectively. Each person has been captured using 2 cameras from 8 different angles. 
 
 ## Acknowledgements
 
